@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace CLINICAL_SYSTEM
 {
-    public partial class SOAP_form : Form
+    public partial class SOAP_form2 : Form
     {
-        public SOAP_form()
+        public SOAP_form2()
         {
             InitializeComponent();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label31_Click(object sender, EventArgs e)
         {
 
         }

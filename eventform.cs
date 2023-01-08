@@ -35,11 +35,11 @@ namespace CLINICAL_SYSTEM
         {
             MySqlConnection conn = new MySqlConnection(connString);
             conn.Open();
-            String mysql = "INSERT INTO calendar(Appointment_Date,event_c)values(?,?)";
+            String mysql = "INSERT INTO calendar(Appointment_Date,event)values(?,?)";
             MySqlCommand cmd = new MySqlCommand(mysql, conn);
             cmd.CommandText = mysql;
             cmd.Parameters.AddWithValue("Appointment_Date", txdate.Text);
-            cmd.Parameters.AddWithValue("event_c", txevent.Text);
+            cmd.Parameters.AddWithValue("event", txevent.Text);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Saved");
             cmd.Dispose();

@@ -7,24 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using System.Configuration;
 
 namespace CLINICAL_SYSTEM
 {
-    public partial class SOAP_form : Form
+    public partial class Login_Page : Form
     {
-        public SOAP_form()
+        public Login_Page()
         {
             InitializeComponent();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label31_Click(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }

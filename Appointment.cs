@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace CLINICAL_SYSTEM
 {
-    public partial class SOAP_form : Form
+    public partial class Appointment : Form
     {
-        public SOAP_form()
+        public Appointment()
         {
             InitializeComponent();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label31_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

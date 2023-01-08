@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace CLINICAL_SYSTEM
 {
-    public partial class SOAP_form : Form
+    public partial class ad_change_password : Form
     {
-        public SOAP_form()
+        public ad_change_password()
         {
             InitializeComponent();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label31_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

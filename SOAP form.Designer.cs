@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -43,54 +37,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -101,15 +47,68 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -133,66 +132,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(271, 946);
             this.panel1.TabIndex = 24;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::CLINICAL_SYSTEM.Properties.Resources.png_login_logout_white_icon_11641484341czkekai5wp_removebg_preview;
-            this.pictureBox6.Location = new System.Drawing.Point(26, 626);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(58, 48);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 31;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::CLINICAL_SYSTEM.Properties.Resources._2494_6_medical_records_icon_iconbunny_removebg_preview__1_;
-            this.pictureBox5.Location = new System.Drawing.Point(21, 448);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(57, 55);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 30;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::CLINICAL_SYSTEM.Properties.Resources.MicrosoftTeams_image__13_;
-            this.pictureBox4.Location = new System.Drawing.Point(24, 540);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(53, 45);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 29;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::CLINICAL_SYSTEM.Properties.Resources._8e35072f9c083812e54cedaa7bf76e9f_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(21, 272);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(58, 46);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 28;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::CLINICAL_SYSTEM.Properties.Resources._99_removebg_preview__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 354);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(73, 67);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CLINICAL_SYSTEM.Properties.Resources.MicrosoftTeams_image__7_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(268, 221);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -275,8 +214,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.checkBox6);
             this.panel2.Controls.Add(this.textBox16);
             this.panel2.Controls.Add(this.label34);
@@ -313,6 +250,7 @@
             this.panel2.Controls.Add(this.label19);
             this.panel2.Controls.Add(this.label18);
             this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.comboBox2);
             this.panel2.Controls.Add(this.textBox6);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label16);
@@ -333,369 +271,201 @@
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(272, 65);
+            this.panel2.Location = new System.Drawing.Point(277, 65);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1270, 881);
+            this.panel2.Size = new System.Drawing.Size(1265, 881);
             this.panel2.TabIndex = 28;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.button4.Location = new System.Drawing.Point(979, 811);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 38);
-            this.button4.TabIndex = 89;
-            this.button4.Text = "Save";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(357, 469);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(18, 17);
-            this.checkBox6.TabIndex = 88;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(490, 469);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(328, 22);
-            this.textBox16.TabIndex = 87;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label34.Location = new System.Drawing.Point(381, 465);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(81, 25);
-            this.label34.TabIndex = 86;
-            this.label34.Text = "Others";
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.button3.Location = new System.Drawing.Point(1140, 811);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 38);
-            this.button3.TabIndex = 85;
-            this.button3.Text = "Next Page";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(869, 773);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(356, 22);
-            this.textBox14.TabIndex = 84;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(244, 772);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(368, 22);
-            this.textBox15.TabIndex = 83;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label32.Location = new System.Drawing.Point(688, 770);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(175, 25);
-            this.label32.TabIndex = 82;
-            this.label32.Text = "Others (Specify)";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label33.Location = new System.Drawing.Point(36, 768);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(180, 25);
-            this.label33.TabIndex = 81;
-            this.label33.Text = "Paralysis of M.P.";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(867, 712);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(358, 22);
-            this.textBox12.TabIndex = 80;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(330, 712);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(282, 22);
-            this.textBox13.TabIndex = 79;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label30.Location = new System.Drawing.Point(709, 708);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(136, 25);
-            this.label30.TabIndex = 78;
-            this.label30.Text = "Weakness of";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label31.Location = new System.Drawing.Point(36, 708);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(248, 25);
-            this.label31.TabIndex = 77;
-            this.label31.Text = "Limitation of R.O.M. of";
-            this.label31.Click += new System.EventHandler(this.label31_Click);
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(1009, 640);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(216, 22);
-            this.textBox11.TabIndex = 76;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label29.Location = new System.Drawing.Point(895, 637);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(96, 25);
-            this.label29.TabIndex = 75;
-            this.label29.Text = "Stiffness";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(616, 640);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(198, 22);
-            this.textBox9.TabIndex = 74;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(205, 641);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(182, 22);
-            this.textBox10.TabIndex = 73;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label27.Location = new System.Drawing.Point(478, 637);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(119, 25);
-            this.label27.TabIndex = 72;
-            this.label27.Text = "Swelling of";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label28.Location = new System.Drawing.Point(36, 637);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(151, 25);
-            this.label28.TabIndex = 71;
-            this.label28.Text = "Tenderness of";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(927, 568);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(298, 22);
-            this.textBox8.TabIndex = 70;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(428, 565);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(282, 22);
-            this.textBox7.TabIndex = 69;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label26.Location = new System.Drawing.Point(767, 565);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(129, 25);
-            this.label26.TabIndex = 68;
-            this.label26.Text = "Referred to";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label25.Location = new System.Drawing.Point(325, 561);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(83, 25);
-            this.label25.TabIndex = 67;
-            this.label25.Text = "Pain of";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label24.Location = new System.Drawing.Point(26, 561);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(232, 25);
-            this.label24.TabIndex = 66;
-            this.label24.Text = "Physical Examination:";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(18, 475);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 63);
-            this.button2.TabIndex = 65;
-            this.button2.Text = "Objective";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(1010, 418);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(18, 17);
-            this.checkBox5.TabIndex = 64;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(874, 418);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(18, 17);
-            this.checkBox4.TabIndex = 63;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(705, 418);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(18, 17);
-            this.checkBox3.TabIndex = 62;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(490, 418);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(18, 17);
-            this.checkBox2.TabIndex = 61;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(357, 418);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(18, 17);
-            this.checkBox1.TabIndex = 60;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label23.Location = new System.Drawing.Point(1034, 413);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(70, 25);
-            this.label23.TabIndex = 59;
-            this.label23.Text = "Renal";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label22.Location = new System.Drawing.Point(514, 413);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(146, 25);
-            this.label22.TabIndex = 58;
-            this.label22.Text = "Hypertension";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label21.Location = new System.Drawing.Point(899, 413);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(64, 25);
-            this.label21.TabIndex = 57;
-            this.label21.Text = "Liver";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label20.Location = new System.Drawing.Point(726, 413);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(92, 25);
-            this.label20.TabIndex = 56;
-            this.label20.Text = "Cardiac";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label19.Location = new System.Drawing.Point(514, 413);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(146, 25);
-            this.label19.TabIndex = 55;
-            this.label19.Text = "Hypertension";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label18.Location = new System.Drawing.Point(381, 413);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 25);
-            this.label18.TabIndex = 54;
-            this.label18.Text = "DM";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label17.Location = new System.Drawing.Point(164, 413);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(143, 25);
-            this.label17.TabIndex = 53;
-            this.label17.Text = "Past History:";
+            // comboBox4
+            // 
+            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Ambulatory     الإسعاف",
+            "Wheel Chair  كرسي متحرك",
+            "Stretcher             نقالة"});
+            this.comboBox4.Location = new System.Drawing.Point(954, 44);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(248, 24);
+            this.comboBox4.TabIndex = 35;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label10.Location = new System.Drawing.Point(700, 103);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(209, 25);
+            this.label10.TabIndex = 31;
+            this.label10.Text = "Patient Entry Date:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label11.Location = new System.Drawing.Point(744, 43);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(96, 25);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "Gender:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(182, 168);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(285, 22);
+            this.dateTimePicker1.TabIndex = 29;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(182, 107);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(285, 22);
+            this.textBox3.TabIndex = 17;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(182, 42);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(285, 22);
+            this.textBox2.TabIndex = 16;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label9.Location = new System.Drawing.Point(54, 166);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(68, 25);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "Date:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label7.Location = new System.Drawing.Point(0, 103);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(189, 25);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Medical Number:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label1.Location = new System.Drawing.Point(43, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 25);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Name:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label6.Location = new System.Drawing.Point(277, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(282, 37);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "Doctor Assessment";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(954, 106);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(248, 22);
+            this.dateTimePicker2.TabIndex = 36;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label8.Location = new System.Drawing.Point(744, 164);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(92, 25);
+            this.label8.TabIndex = 37;
+            this.label8.Text = "Patient:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Inpatient  داخلي",
+            "Outpatient  خارجي"});
+            this.comboBox1.Location = new System.Drawing.Point(954, 165);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(248, 24);
+            this.comboBox1.TabIndex = 38;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label12.Location = new System.Drawing.Point(693, 228);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(216, 25);
+            this.label12.TabIndex = 39;
+            this.label12.Text = "Number of Sessions:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(954, 228);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(248, 22);
+            this.textBox4.TabIndex = 40;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label13.Location = new System.Drawing.Point(54, 228);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(59, 25);
+            this.label13.TabIndex = 41;
+            this.label13.Text = "Age:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(182, 232);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(285, 22);
+            this.textBox5.TabIndex = 42;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(18, 320);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 63);
+            this.button1.TabIndex = 48;
+            this.button1.Text = "Subjective";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Inpatient  داخلي",
+            "Outpatient  خارجي"});
+            this.comboBox2.Location = new System.Drawing.Point(954, 338);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(248, 24);
+            this.comboBox2.TabIndex = 52;
             // 
             // textBox6
             // 
@@ -726,189 +496,411 @@
             this.label16.TabIndex = 49;
             this.label16.Text = "Payment Process:";
             // 
-            // button1
+            // label17
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(18, 320);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 63);
-            this.button1.TabIndex = 48;
-            this.button1.Text = "Subjective";
-            this.button1.UseVisualStyleBackColor = false;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label17.Location = new System.Drawing.Point(164, 413);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(143, 25);
+            this.label17.TabIndex = 53;
+            this.label17.Text = "Past History:";
             // 
-            // textBox5
+            // label18
             // 
-            this.textBox5.Location = new System.Drawing.Point(175, 218);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(285, 22);
-            this.textBox5.TabIndex = 42;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label18.Location = new System.Drawing.Point(381, 413);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(52, 25);
+            this.label18.TabIndex = 54;
+            this.label18.Text = "DM";
             // 
-            // label13
+            // label19
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label13.Location = new System.Drawing.Point(47, 214);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(59, 25);
-            this.label13.TabIndex = 41;
-            this.label13.Text = "Age:";
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label19.Location = new System.Drawing.Point(514, 413);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(146, 25);
+            this.label19.TabIndex = 55;
+            this.label19.Text = "Hypertension";
             // 
-            // textBox4
+            // label20
             // 
-            this.textBox4.Location = new System.Drawing.Point(947, 214);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(248, 22);
-            this.textBox4.TabIndex = 40;
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label20.Location = new System.Drawing.Point(726, 413);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(92, 25);
+            this.label20.TabIndex = 56;
+            this.label20.Text = "Cardiac";
             // 
-            // label12
+            // label21
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label12.Location = new System.Drawing.Point(686, 214);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(216, 25);
-            this.label12.TabIndex = 39;
-            this.label12.Text = "Number of Sessions:";
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label21.Location = new System.Drawing.Point(899, 413);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(64, 25);
+            this.label21.TabIndex = 57;
+            this.label21.Text = "Liver";
             // 
-            // comboBox1
+            // label22
             // 
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Inpatient  داخلي",
-            "Outpatient  خارجي"});
-            this.comboBox1.Location = new System.Drawing.Point(947, 151);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(248, 24);
-            this.comboBox1.TabIndex = 38;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label22.Location = new System.Drawing.Point(514, 413);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(146, 25);
+            this.label22.TabIndex = 58;
+            this.label22.Text = "Hypertension";
             // 
-            // label8
+            // label23
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label8.Location = new System.Drawing.Point(737, 150);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 25);
-            this.label8.TabIndex = 37;
-            this.label8.Text = "Patient:";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label23.Location = new System.Drawing.Point(1034, 413);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(70, 25);
+            this.label23.TabIndex = 59;
+            this.label23.Text = "Renal";
             // 
-            // dateTimePicker2
+            // checkBox1
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(947, 92);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(248, 22);
-            this.dateTimePicker2.TabIndex = 36;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(357, 418);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.TabIndex = 60;
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // comboBox4
+            // checkBox2
             // 
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Female",
-            "Male"});
-            this.comboBox4.Location = new System.Drawing.Point(947, 30);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(248, 24);
-            this.comboBox4.TabIndex = 35;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(490, 418);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(18, 17);
+            this.checkBox2.TabIndex = 61;
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // label10
+            // checkBox3
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label10.Location = new System.Drawing.Point(693, 89);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(209, 25);
-            this.label10.TabIndex = 31;
-            this.label10.Text = "Patient Entry Date:";
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(705, 418);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(18, 17);
+            this.checkBox3.TabIndex = 62;
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // label11
+            // checkBox4
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label11.Location = new System.Drawing.Point(737, 29);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 25);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "Gender:";
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(874, 418);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(18, 17);
+            this.checkBox4.TabIndex = 63;
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // checkBox5
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(175, 154);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(285, 22);
-            this.dateTimePicker1.TabIndex = 29;
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(1010, 418);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(18, 17);
+            this.checkBox5.TabIndex = 64;
+            this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // button2
             // 
-            this.textBox3.Location = new System.Drawing.Point(175, 93);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(285, 22);
-            this.textBox3.TabIndex = 17;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(18, 475);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(135, 63);
+            this.button2.TabIndex = 65;
+            this.button2.Text = "Objective";
+            this.button2.UseVisualStyleBackColor = false;
             // 
-            // textBox2
+            // label24
             // 
-            this.textBox2.Location = new System.Drawing.Point(175, 28);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(285, 22);
-            this.textBox2.TabIndex = 16;
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label24.Location = new System.Drawing.Point(23, 584);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(232, 25);
+            this.label24.TabIndex = 66;
+            this.label24.Text = "Physical Examination:";
             // 
-            // label9
+            // label25
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label9.Location = new System.Drawing.Point(47, 152);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(68, 25);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Date:";
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label25.Location = new System.Drawing.Point(322, 584);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(83, 25);
+            this.label25.TabIndex = 67;
+            this.label25.Text = "Pain of";
             // 
-            // label7
+            // label26
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label7.Location = new System.Drawing.Point(-7, 89);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(189, 25);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Medical Number:";
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label26.Location = new System.Drawing.Point(764, 588);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(129, 25);
+            this.label26.TabIndex = 68;
+            this.label26.Text = "Referred to";
             // 
-            // label1
+            // textBox7
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label1.Location = new System.Drawing.Point(36, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 25);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Name:";
+            this.textBox7.Location = new System.Drawing.Point(425, 588);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(282, 22);
+            this.textBox7.TabIndex = 69;
             // 
-            // label6
+            // textBox8
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
-            this.label6.Location = new System.Drawing.Point(277, 22);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(282, 37);
-            this.label6.TabIndex = 27;
-            this.label6.Text = "Doctor Assessment";
+            this.textBox8.Location = new System.Drawing.Point(924, 591);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(298, 22);
+            this.textBox8.TabIndex = 70;
             // 
-            // textBox1
+            // textBox9
             // 
-            this.textBox1.Location = new System.Drawing.Point(954, 337);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 22);
-            this.textBox1.TabIndex = 90;
+            this.textBox9.Location = new System.Drawing.Point(613, 663);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(198, 22);
+            this.textBox9.TabIndex = 74;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(202, 664);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(182, 22);
+            this.textBox10.TabIndex = 73;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label27.Location = new System.Drawing.Point(475, 660);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(119, 25);
+            this.label27.TabIndex = 72;
+            this.label27.Text = "Swelling of";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label28.Location = new System.Drawing.Point(33, 660);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(151, 25);
+            this.label28.TabIndex = 71;
+            this.label28.Text = "Tenderness of";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(1006, 663);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(216, 22);
+            this.textBox11.TabIndex = 76;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label29.Location = new System.Drawing.Point(892, 660);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(96, 25);
+            this.label29.TabIndex = 75;
+            this.label29.Text = "Stiffness";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(864, 735);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(358, 22);
+            this.textBox12.TabIndex = 80;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(327, 735);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(282, 22);
+            this.textBox13.TabIndex = 79;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label30.Location = new System.Drawing.Point(706, 731);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(136, 25);
+            this.label30.TabIndex = 78;
+            this.label30.Text = "Weakness of";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label31.Location = new System.Drawing.Point(33, 731);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(248, 25);
+            this.label31.TabIndex = 77;
+            this.label31.Text = "Limitation of R.O.M. of";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(866, 796);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(356, 22);
+            this.textBox14.TabIndex = 84;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(241, 795);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(368, 22);
+            this.textBox15.TabIndex = 83;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label32.Location = new System.Drawing.Point(685, 793);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(175, 25);
+            this.label32.TabIndex = 82;
+            this.label32.Text = "Others (Specify)";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label33.Location = new System.Drawing.Point(33, 791);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(180, 25);
+            this.label33.TabIndex = 81;
+            this.label33.Text = "Paralysis of M.P.";
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.button3.Location = new System.Drawing.Point(1135, 840);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(130, 38);
+            this.button3.TabIndex = 85;
+            this.button3.Text = "Next Page";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::CLINICAL_SYSTEM.Properties.Resources.png_login_logout_white_icon_11641484341czkekai5wp_removebg_preview;
+            this.pictureBox6.Location = new System.Drawing.Point(26, 626);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(58, 48);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 31;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::CLINICAL_SYSTEM.Properties.Resources._2494_6_medical_records_icon_iconbunny_removebg_preview__1_;
+            this.pictureBox5.Location = new System.Drawing.Point(21, 448);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(57, 55);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 30;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::CLINICAL_SYSTEM.Properties.Resources.MicrosoftTeams_image__13_;
+            this.pictureBox4.Location = new System.Drawing.Point(24, 540);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(53, 45);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 29;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::CLINICAL_SYSTEM.Properties.Resources._8e35072f9c083812e54cedaa7bf76e9f_removebg_preview;
+            this.pictureBox3.Location = new System.Drawing.Point(21, 272);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(58, 46);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 28;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::CLINICAL_SYSTEM.Properties.Resources._99_removebg_preview__2_;
+            this.pictureBox2.Location = new System.Drawing.Point(16, 354);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(73, 67);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CLINICAL_SYSTEM.Properties.Resources.MicrosoftTeams_image__7_;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(268, 221);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(61)))), ((int)(((byte)(107)))));
+            this.label34.Location = new System.Drawing.Point(381, 465);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(81, 25);
+            this.label34.TabIndex = 86;
+            this.label34.Text = "Others";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(490, 469);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(328, 22);
+            this.textBox16.TabIndex = 87;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(357, 469);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(18, 17);
+            this.checkBox6.TabIndex = 88;
+            this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // SOAP_form
             // 
@@ -925,14 +917,14 @@
             this.Text = "SOAP_form";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1004,6 +996,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label16;
@@ -1012,7 +1005,5 @@
         private System.Windows.Forms.CheckBox checkBox6;
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
